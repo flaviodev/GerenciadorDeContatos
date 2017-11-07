@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GerenciadorContato.Views.ConsultaContatoView" Title="Dados do Contato">
+    <ContentPage.Content>
+        <StackLayout Padding="10">
+            <Label Text="Nome: "/>
+            <Entry x:Name="Nome" IsEnabled="False"/>
+
+            <Label Text="e-mail: "/>
+            <Entry x:Name="Email"  IsEnabled="False"/>
+
+            <Label Text="Telefone: "/>
+            <Entry x:Name="Telefone"  IsEnabled="False" />
+
+            <Label Text="CEP: "/>
+            <Entry x:Name="Cep"  IsEnabled="False" />
+
+            <Label Text="Rua: "/>
+            <Entry x:Name="Rua"  IsEnabled="False" />
+
+            <Label Text="Número: "/>
+            <Entry x:Name="Numero"  IsEnabled="False" />
+
+            <Label Text="Complemento: "/>
+            <Entry x:Name="Complemento"  IsEnabled="False" />
+
+            <Label Text="Bairro: "/>
+            <Entry x:Name="Bairro"  IsEnabled="False" />
+
+            <Label Text="Cidade: "/>
+            <Entry x:Name="Cidade"  IsEnabled="False" />
+
+            <Label Text="Estado: "/>
+            <Entry x:Name="Estado"  IsEnabled="False" />
+
+            <Button x:Name="Edita" Text="Editar" Clicked="EditarClicked" />
+
+            <Button x:Name="Exclui" Text="Excluir" Clicked="ExcluirClicked" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

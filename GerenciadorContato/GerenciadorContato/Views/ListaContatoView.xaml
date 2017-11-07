@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GerenciadorContato.Views.ListaContatoView" Title="Gerenciador de Contatos">
+    <ContentPage.Content>
+        <StackLayout Padding="20" >
+            <ListView x:Name="Lista"
+                VerticalOptions="StartAndExpand" 
+                HorizontalOptions="CenterAndExpand" ItemSelected="Selecionar"/>
+
+            <Button Text="+ Novo Contato" Command="{Binding IncluirCommand}" VerticalOptions="End"/>
+            <Button Text="Sobre" Command="{Binding SobreCommand}" VerticalOptions="End"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

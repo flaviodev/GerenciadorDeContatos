@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GerenciadorContato.Views.MantemContatoView"> 
+    <ContentPage.Content>
+        <StackLayout Padding="10">
+            <Label Text="Nome: "/>
+            <Entry x:Name="Nome" Placeholder="Digite o nome"/>
+
+            <Label Text="e-mail: "/>
+            <Entry x:Name="Email" Placeholder="Digite o e-mail"/>
+
+            <Label Text="Telefone: "/>
+            <Entry x:Name="Telefone" Placeholder="Digite o telefone" />
+
+            <Label Text="CEP: "/>
+            <Entry x:Name="Cep"  Placeholder="Digite o CEP" />
+
+            <Label Text="Rua: "/>
+            <Entry x:Name="Rua"   Placeholder="Digite a rua" />
+
+            <Label Text="Número: "/>
+            <Entry x:Name="Numero"   Placeholder="Digite o número do endereço" />
+
+            <Label Text="Complemento: "/>
+            <Entry x:Name="Complemento"   Placeholder="Digite o complemento" />
+
+            <Label Text="Bairro: "/>
+            <Entry x:Name="Bairro"   Placeholder="Digite o bairro" />
+
+            <Label Text="Cidade: "/>
+            <Entry x:Name="Cidade"   Placeholder="Digite a cidade" />
+
+            <Label Text="Estado: "/>
+            <Entry x:Name="Estado"   Placeholder="Digite o estado" />
+
+            <Button x:Name="Salvar" Text="Salvar" Clicked="SalvarClicked" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
