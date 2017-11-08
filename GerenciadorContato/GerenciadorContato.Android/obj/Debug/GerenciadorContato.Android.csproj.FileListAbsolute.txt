@@ -1,9 +1,11 @@
+D:\Source\GerenciadorContato\GerenciadorContato\GerenciadorContato.Android\obj\Debug\GerenciadorContato.Android.csprojResolveAssemblyReference.cache
 D:\Source\GerenciadorContato\GerenciadorContato\GerenciadorContato.Android\bin\Debug\GerenciadorContato.Android.dll
 D:\Source\GerenciadorContato\GerenciadorContato\GerenciadorContato.Android\bin\Debug\GerenciadorContato.Android.pdb
 D:\Source\GerenciadorContato\GerenciadorContato\GerenciadorContato.Android\bin\Debug\com.companyname.GerenciadorContato.apk
 D:\Source\GerenciadorContato\GerenciadorContato\GerenciadorContato.Android\bin\Debug\com.companyname.GerenciadorContato-Signed.apk
 D:\Source\GerenciadorContato\GerenciadorContato\GerenciadorContato.Android\bin\Debug\FormsViewGroup.dll
 D:\Source\GerenciadorContato\GerenciadorContato\GerenciadorContato.Android\bin\Debug\GerenciadorContato.dll
+D:\Source\GerenciadorContato\GerenciadorContato\GerenciadorContato.Android\bin\Debug\Newtonsoft.Json.dll
 D:\Source\GerenciadorContato\GerenciadorContato\GerenciadorContato.Android\bin\Debug\SQLite-net.dll
 D:\Source\GerenciadorContato\GerenciadorContato\GerenciadorContato.Android\bin\Debug\SQLite.Net.Async.dll
 D:\Source\GerenciadorContato\GerenciadorContato\GerenciadorContato.Android\bin\Debug\SQLite.Net.dll
@@ -34,6 +36,7 @@ D:\Source\GerenciadorContato\GerenciadorContato\GerenciadorContato.Android\bin\D
 D:\Source\GerenciadorContato\GerenciadorContato\GerenciadorContato.Android\bin\Debug\GerenciadorContato.pdb
 D:\Source\GerenciadorContato\GerenciadorContato\GerenciadorContato.Android\bin\Debug\FormsViewGroup.pdb
 D:\Source\GerenciadorContato\GerenciadorContato\GerenciadorContato.Android\bin\Debug\FormsViewGroup.dll.mdb
+D:\Source\GerenciadorContato\GerenciadorContato\GerenciadorContato.Android\bin\Debug\Newtonsoft.Json.xml
 D:\Source\GerenciadorContato\GerenciadorContato\GerenciadorContato.Android\bin\Debug\SQLite-net.pdb
 D:\Source\GerenciadorContato\GerenciadorContato\GerenciadorContato.Android\bin\Debug\SQLite-net.xml
 D:\Source\GerenciadorContato\GerenciadorContato\GerenciadorContato.Android\bin\Debug\Xamarin.Forms.Core.pdb
@@ -44,7 +47,6 @@ D:\Source\GerenciadorContato\GerenciadorContato\GerenciadorContato.Android\bin\D
 D:\Source\GerenciadorContato\GerenciadorContato\GerenciadorContato.Android\bin\Debug\Xamarin.Forms.Xaml.pdb
 D:\Source\GerenciadorContato\GerenciadorContato\GerenciadorContato.Android\bin\Debug\Xamarin.Forms.Xaml.xml
 D:\Source\GerenciadorContato\GerenciadorContato\GerenciadorContato.Android\bin\Debug\Xamarin.Forms.Xaml.dll.mdb
-D:\Source\GerenciadorContato\GerenciadorContato\GerenciadorContato.Android\obj\Debug\GerenciadorContato.Android.csprojResolveAssemblyReference.cache
 D:\Source\GerenciadorContato\GerenciadorContato\GerenciadorContato.Android\obj\Debug\GerenciadorContato.Android.csproj.CoreCompileInputs.cache
 D:\Source\GerenciadorContato\GerenciadorContato\GerenciadorContato.Android\obj\Debug\GerenciadorContato.Android.dll
 D:\Source\GerenciadorContato\GerenciadorContato\GerenciadorContato.Android\obj\Debug\GerenciadorContato.Android.pdb

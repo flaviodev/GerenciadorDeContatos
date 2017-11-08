@@ -1,8 +1,10 @@
 ﻿using GerenciadorContato.Models;
 using GerenciadorContato.ViewModels;
+using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -52,6 +54,25 @@ namespace GerenciadorContato.Views
             this.Cidade.Text = contato.Cidade;
             this.Estado.Text = contato.Estado;
             this.Cep.Text = contato.Cep;
+        }
+
+        public async void BuscarCepClicked()
+        {
+            HttpClient _Client = new HttpClient();
+            var content = await _Client.GetStringAsync("http://api.postmon.com.br/v1/cep/" + Cep.Text);
+            Endereco endereco = JsonConvert.DeserializeObject<Endereco>(content);
+
+
+            //            _mantemViewModel.ConsultaCep(Cep.Text);
+            //            Endereco endereco = await _mantemViewModel.endereco;
+
+            if (endereco!=null)
+            {
+                this.Rua.Text = endereco.logradouro;
+                this.Bairro.Text = endereco.bairro;
+                this.Cidade.Text = endereco.cidade;
+                this.Estado.Text = endereco.estado;
+            }
         }
 
         public void SalvarClicked()

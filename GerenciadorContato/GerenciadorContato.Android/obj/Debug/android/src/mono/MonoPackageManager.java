@@ -108,6 +108,7 @@ class MonoPackageManager_Resources {
 		/* We need to ensure that "GerenciadorContato.Android.dll" comes first in this list. */
 		"GerenciadorContato.Android.dll",
 		"FormsViewGroup.dll",
+		"Newtonsoft.Json.dll",
 		"SQLite-net.dll",
 		"SQLite.Net.Async.dll",
 		"SQLite.Net.dll",

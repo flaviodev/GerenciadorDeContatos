@@ -15,6 +15,7 @@ namespace GerenciadorContato
 
             DependencyService.Register<ViewModels.Services.IMensagemService, Views.Services.MensagemService>();
             DependencyService.Register<ViewModels.Services.INavegacaoService, Views.Services.NavegacaoService>();
+            DependencyService.Register<ViewModels.Services.IRestService, Views.Services.RestService>();
 
             MainPage = new NavigationPage(new Views.ListaContatoView());
         }

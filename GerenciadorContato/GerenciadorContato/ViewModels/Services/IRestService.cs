@@ -1,0 +1,14 @@
+﻿using GerenciadorContato.Models;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace GerenciadorContato.ViewModels.Services
+{
+    interface IRestService
+    {
+        Task<Endereco> EnderecoPeloCepAsync(string cep);
+    }
+}

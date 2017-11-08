@@ -16,6 +16,8 @@
             <Label Text="CEP: "/>
             <Entry x:Name="Cep"  Placeholder="Digite o CEP" />
 
+            <Button Text="Consultar CEP" Clicked="BuscarCepClicked" ></Button>
+
             <Label Text="Rua: "/>
             <Entry x:Name="Rua"   Placeholder="Digite a rua" />
 
